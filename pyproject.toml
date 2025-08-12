@@ -1,0 +1,6 @@
+[tool.mutmut]
+
+use_resource = false
+paths_to_mutate = ["src/"]
+runner = "pytest"
+tests_dir = ["tests/"]
